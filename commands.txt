@@ -49,3 +49,6 @@ To draw computational graph of the current running ros2 architecture (GUI)
 
 $ ros2 run rqt graph rqt graph
 ------------------------------------------------
+To create new packages with dependencies
+
+$ ros2 pkg create my_package --dependencies rclcpp std_msgs 
