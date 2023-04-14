@@ -71,6 +71,11 @@ ros2 run rqt graph rqt graph
 ```bash
 ros2 pkg create my_package --dependencies rclcpp std_msgs 
 ```
+
+* To compile a new package
+```bash
+colcon build --symlink-install
+```
     
 
 
