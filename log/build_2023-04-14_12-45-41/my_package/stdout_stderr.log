@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target simple[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple[0m
+/usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `main':
+simple.cpp:(.text+0x37): undefined reference to `rcutils_get_default_allocator'
+/usr/bin/ld: simple.cpp:(.text+0x5c): undefined reference to `rclcpp::InitOptions::InitOptions(rcutils_allocator_s)'
+/usr/bin/ld: simple.cpp:(.text+0x7d): undefined reference to `rclcpp::init(int, char const* const*, rclcpp::InitOptions const&, rclcpp::SignalHandlerOptions)'
+/usr/bin/ld: simple.cpp:(.text+0x89): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+/usr/bin/ld: simple.cpp:(.text+0xca): undefined reference to `rclcpp::spin(std::shared_ptr<rclcpp::Node>)'
+/usr/bin/ld: simple.cpp:(.text+0x12f): undefined reference to `rclcpp::shutdown(std::shared_ptr<rclcpp::Context>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: simple.cpp:(.text+0x198): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+/usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `void __gnu_cxx::new_allocator<rclcpp::Node>::construct<rclcpp::Node, char const (&) [12]>(rclcpp::Node*, char const (&) [12])':
+simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0x86): undefined reference to `rcutils_get_default_allocator'
+/usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xb7): undefined reference to `rclcpp::NodeOptions::NodeOptions(rcutils_allocator_s)'
+/usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xe7): undefined reference to `rclcpp::Node::Node(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple.dir/build.make:97: simple] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

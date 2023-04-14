@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000470] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.039592] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.039769] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1774,unix/Ubunto:/tmp/.ICE-unix/1774'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bba5e7_22cf_4aee_8844_51040a7cdb72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X4QF31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.791'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103006] (-) TimerEvent: {}
+[0.204900] (-) TimerEvent: {}
+[0.306763] (-) TimerEvent: {}
+[0.408565] (-) TimerEvent: {}
+[0.509156] (-) TimerEvent: {}
+[0.610707] (-) TimerEvent: {}
+[0.712170] (-) TimerEvent: {}
+[0.816354] (-) TimerEvent: {}
+[0.919699] (-) TimerEvent: {}
+[1.025871] (-) TimerEvent: {}
+[1.130883] (-) TimerEvent: {}
+[1.232906] (-) TimerEvent: {}
+[1.333528] (-) TimerEvent: {}
+[1.434829] (-) TimerEvent: {}
+[1.440423] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.537393] (-) TimerEvent: {}
+[1.640104] (-) TimerEvent: {}
+[1.741726] (-) TimerEvent: {}
+[1.843886] (-) TimerEvent: {}
+[1.944666] (-) TimerEvent: {}
+[2.047166] (-) TimerEvent: {}
+[2.148899] (-) TimerEvent: {}
+[2.250008] (-) TimerEvent: {}
+[2.352104] (-) TimerEvent: {}
+[2.453583] (-) TimerEvent: {}
+[2.555003] (-) TimerEvent: {}
+[2.656978] (-) TimerEvent: {}
+[2.757763] (-) TimerEvent: {}
+[2.861178] (-) TimerEvent: {}
+[2.962682] (-) TimerEvent: {}
+[3.064119] (-) TimerEvent: {}
+[3.172891] (-) TimerEvent: {}
+[3.197387] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.273572] (-) TimerEvent: {}
+[3.376521] (-) TimerEvent: {}
+[3.421850] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.477293] (-) TimerEvent: {}
+[3.578414] (-) TimerEvent: {}
+[3.680602] (-) TimerEvent: {}
+[3.781580] (-) TimerEvent: {}
+[3.845485] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.859678] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.860893] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.883952] (-) TimerEvent: {}
+[3.902224] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.967138] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.011860] (-) TimerEvent: {}
+[4.112585] (-) TimerEvent: {}
+[4.213987] (-) TimerEvent: {}
+[4.296668] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.309119] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.309648] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.310449] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.314443] (-) TimerEvent: {}
+[4.415735] (-) TimerEvent: {}
+[4.421385] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.516525] (-) TimerEvent: {}
+[4.632440] (-) TimerEvent: {}
+[4.752969] (-) TimerEvent: {}
+[4.859734] (-) TimerEvent: {}
+[4.960873] (-) TimerEvent: {}
+[5.061678] (-) TimerEvent: {}
+[5.082910] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.162223] (-) TimerEvent: {}
+[5.264414] (-) TimerEvent: {}
+[5.370361] (-) TimerEvent: {}
+[5.471759] (-) TimerEvent: {}
+[5.485976] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.572107] (-) TimerEvent: {}
+[5.673138] (-) TimerEvent: {}
+[5.777111] (-) TimerEvent: {}
+[5.839368] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.878448] (-) TimerEvent: {}
+[5.979547] (-) TimerEvent: {}
+[6.082534] (-) TimerEvent: {}
+[6.184918] (-) TimerEvent: {}
+[6.286149] (-) TimerEvent: {}
+[6.389585] (-) TimerEvent: {}
+[6.499588] (-) TimerEvent: {}
+[6.603843] (-) TimerEvent: {}
+[6.704605] (-) TimerEvent: {}
+[6.710436] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.805520] (-) TimerEvent: {}
+[6.808597] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.901937] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.909825] (-) TimerEvent: {}
+[7.011572] (-) TimerEvent: {}
+[7.120273] (-) TimerEvent: {}
+[7.144775] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.220525] (-) TimerEvent: {}
+[7.321464] (-) TimerEvent: {}
+[7.422813] (-) TimerEvent: {}
+[7.528083] (-) TimerEvent: {}
+[7.555314] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.628904] (-) TimerEvent: {}
+[7.729874] (-) TimerEvent: {}
+[7.831169] (-) TimerEvent: {}
+[7.940630] (-) TimerEvent: {}
+[8.041339] (-) TimerEvent: {}
+[8.136972] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.141916] (-) TimerEvent: {}
+[8.153749] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.244055] (-) TimerEvent: {}
+[8.366389] (-) TimerEvent: {}
+[8.470449] (-) TimerEvent: {}
+[8.572603] (-) TimerEvent: {}
+[8.674475] (-) TimerEvent: {}
+[8.776530] (-) TimerEvent: {}
+[8.883130] (-) TimerEvent: {}
+[8.984899] (-) TimerEvent: {}
+[9.043579] (my_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.086943] (-) TimerEvent: {}
+[9.138622] (my_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.188097] (-) TimerEvent: {}
+[9.272395] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.288635] (-) TimerEvent: {}
+[9.403579] (-) TimerEvent: {}
+[9.544645] (-) TimerEvent: {}
+[9.647979] (-) TimerEvent: {}
+[9.651437] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.748581] (-) TimerEvent: {}
+[9.849749] (-) TimerEvent: {}
+[9.963821] (-) TimerEvent: {}
+[10.065947] (-) TimerEvent: {}
+[10.168311] (-) TimerEvent: {}
+[10.274030] (-) TimerEvent: {}
+[10.318504] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.318866] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.374897] (-) TimerEvent: {}
+[10.476087] (-) TimerEvent: {}
+[10.561861] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.564076] (my_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.576228] (-) TimerEvent: {}
+[10.691638] (-) TimerEvent: {}
+[10.795757] (-) TimerEvent: {}
+[10.896522] (-) TimerEvent: {}
+[10.997631] (-) TimerEvent: {}
+[11.099283] (-) TimerEvent: {}
+[11.200029] (-) TimerEvent: {}
+[11.229378] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.303165] (-) TimerEvent: {}
+[11.387508] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[11.388623] (my_package) StderrLine: {'line': b"  ament_package_xml() package name 'my_package' in '/package.xml' does not\n"}
+[11.389081] (my_package) StderrLine: {'line': b"  match current PROJECT_NAME 'basics'.  You must call project() with the same\n"}
+[11.389237] (my_package) StderrLine: {'line': b'  package name before.\n'}
+[11.389382] (my_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.389515] (my_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[11.389710] (my_package) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[11.389860] (my_package) StderrLine: {'line': b'\n'}
+[11.389986] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[11.391240] (my_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.391955] (my_package) StdoutLine: {'line': b'See also "/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/CMakeOutput.log".\n'}
+[11.405368] (my_package) CommandEnded: {'returncode': 1}
+[11.405841] (-) TimerEvent: {}
+[11.471078] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[11.473805] (-) EventReactorShutdown: {}

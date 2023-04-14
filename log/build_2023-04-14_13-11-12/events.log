@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.007372] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.007753] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.056586] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.071830] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1774,unix/Ubunto:/tmp/.ICE-unix/1774'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bba5e7_22cf_4aee_8844_51040a7cdb72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X4QF31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.791'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100470] (-) TimerEvent: {}
+[0.203562] (-) TimerEvent: {}
+[0.204262] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.304201] (-) TimerEvent: {}
+[0.323531] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.346819] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.406996] (-) TimerEvent: {}
+[0.508464] (-) TimerEvent: {}
+[0.617888] (-) TimerEvent: {}
+[0.632058] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.640455] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.640697] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.643579] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.647432] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.718644] (-) TimerEvent: {}
+[0.819736] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.819990] (-) TimerEvent: {}
+[0.836868] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.837156] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.837248] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.839357] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.924401] (-) TimerEvent: {}
+[1.031364] (-) TimerEvent: {}
+[1.140859] (-) TimerEvent: {}
+[1.165934] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.241249] (-) TimerEvent: {}
+[1.264926] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.310068] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.341706] (-) TimerEvent: {}
+[1.365123] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.379297] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.404730] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.424612] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.442067] (-) TimerEvent: {}
+[1.453858] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.542633] (-) TimerEvent: {}
+[1.562113] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.565303] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.643372] (-) TimerEvent: {}
+[1.744484] (-) TimerEvent: {}
+[1.820132] (my_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.846942] (-) TimerEvent: {}
+[1.857549] (my_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.934390] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.948961] (-) TimerEvent: {}
+[1.949830] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.049786] (-) TimerEvent: {}
+[2.149598] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.149819] (-) TimerEvent: {}
+[2.149972] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.254994] (-) TimerEvent: {}
+[2.352168] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.352625] (my_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.362400] (-) TimerEvent: {}
+[2.469977] (-) TimerEvent: {}
+[2.631699] (-) TimerEvent: {}
+[2.635807] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.732154] (-) TimerEvent: {}
+[2.786957] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.789758] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.790159] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.790318] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.792985] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.793291] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.794048] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.795674] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.795901] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.796851] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.801868] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.824588] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[2.829546] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package\n'}
+[2.834937] (-) TimerEvent: {}
+[2.850169] (my_package) CommandEnded: {'returncode': 0}
+[2.850953] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[2.851023] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', '--', '-j2', '-l2'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1774,unix/Ubunto:/tmp/.ICE-unix/1774'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bba5e7_22cf_4aee_8844_51040a7cdb72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X4QF31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.791'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.937184] (-) TimerEvent: {}
+[2.986519] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o\x1b[0m\n'}
+[3.037704] (-) TimerEvent: {}
+[6.558733] (-) TimerEvent: {}
+[6.759553] (-) TimerEvent: {}
+[6.792715] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple\x1b[0m\n'}
+[6.865755] (-) TimerEvent: {}
+[6.966547] (-) TimerEvent: {}
+[6.984084] (my_package) StdoutLine: {'line': b'[100%] Built target simple\n'}
+[7.024376] (my_package) CommandEnded: {'returncode': 0}
+[7.067015] (-) TimerEvent: {}
+[7.099199] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[7.120863] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1774,unix/Ubunto:/tmp/.ICE-unix/1774'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bba5e7_22cf_4aee_8844_51040a7cdb72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X4QF31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.791'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.132357] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.133918] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.134872] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/my_package/simple\n'}
+[7.148798] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[7.178963] (-) TimerEvent: {}
+[7.183657] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[7.202037] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[7.235592] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[7.250173] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.sh\n'}
+[7.265564] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.dsv\n'}
+[7.281399] (-) TimerEvent: {}
+[7.294611] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.bash\n'}
+[7.307916] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.sh\n'}
+[7.331670] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.zsh\n'}
+[7.350578] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.dsv\n'}
+[7.365352] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.dsv\n'}
+[7.379525] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[7.381819] (-) TimerEvent: {}
+[7.393809] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.407633] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[7.435211] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[7.448378] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.xml\n'}
+[7.465198] (my_package) CommandEnded: {'returncode': 0}
+[7.482403] (-) TimerEvent: {}
+[7.590564] (-) TimerEvent: {}
+[7.633575] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[7.636778] (-) EventReactorShutdown: {}

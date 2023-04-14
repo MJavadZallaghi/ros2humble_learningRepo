@@ -1,0 +1,65 @@
+[0.059s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[0.196s] -- The C compiler identification is GNU 11.3.0
+[0.319s] -- The CXX compiler identification is GNU 11.3.0
+[0.332s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.577s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.582s] -- Detecting CXX compiler ABI info
+[0.849s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.883s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.886s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.195s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.334s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.407s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.415s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.427s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.577s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.868s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.981s] -- Looking for pthread.h
+[2.178s] -- Looking for pthread.h - found
+[2.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.379s] -- Found Threads: TRUE  
+[2.754s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.939s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.945s] -- Configured cppcheck include dirs: 
+[2.947s] -- Configured cppcheck exclude dirs and/or files: 
+[2.949s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.950s] -- Configured cpplint exclude dirs and/or files: 
+[2.952s] -- Added test 'lint_cmake' to check CMake code style
+[2.963s] -- Added test 'uncrustify' to check C / C++ code style
+[2.963s] -- Configured uncrustify additional arguments: 
+[2.963s] -- Added test 'xmllint' to check XML markup files
+[2.963s] -- Configuring done
+[2.975s] -- Generating done
+[2.980s] -- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[2.995s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[2.996s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[3.108s] [ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[7.762s] [100%] [32m[1mLinking CXX executable simple[0m
+[7.968s] [100%] Built target simple
+[8.009s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[8.107s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[8.121s] -- Install configuration: ""
+[8.122s] -- Execute custom install script
+[8.122s] -- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/my_package/simple
+[8.137s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[8.137s]   ament_cmake_symlink_install_directory() can't find
+[8.139s]   '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package/config'
+[8.142s] Call Stack (most recent call first):
+[8.143s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[8.144s]   cmake_install.cmake:46 (include)
+[8.144s] 
+[8.145s] [0m
+[8.145s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package

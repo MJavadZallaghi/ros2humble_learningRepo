@@ -1,0 +1,34 @@
+[0.087s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[0.113s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.405s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.490s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.172s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.490s] -- Configured cppcheck include dirs: 
+[1.490s] -- Configured cppcheck exclude dirs and/or files: 
+[1.503s] -- Added test 'lint_cmake' to check CMake code style
+[1.508s] -- Added test 'uncrustify' to check C / C++ code style
+[1.508s] -- Configured uncrustify additional arguments: 
+[1.511s] -- Added test 'xmllint' to check XML markup files
+[1.541s] -- Configuring done
+[1.553s] -- Generating done
+[1.556s] -- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[1.572s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[1.573s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[1.714s] [ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[1.739s] [01m[K/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package/src/simple.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krlccpp/rlccpp.hpp: No such file or directory
+[1.739s]     1 | #include [01;31m[K"rlccpp/rlccpp.hpp"[m[K
+[1.739s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.739s] compilation terminated.
+[1.743s] gmake[2]: *** [CMakeFiles/simple.dir/build.make:76: CMakeFiles/simple.dir/src/simple.cpp.o] Error 1
+[1.746s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+[1.746s] gmake: *** [Makefile:146: all] Error 2
+[1.749s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2

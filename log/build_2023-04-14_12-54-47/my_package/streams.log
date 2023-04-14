@@ -1,0 +1,64 @@
+[0.056s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[0.197s] -- The C compiler identification is GNU 11.3.0
+[0.317s] -- The CXX compiler identification is GNU 11.3.0
+[0.338s] -- Detecting C compiler ABI info
+[0.581s] -- Detecting C compiler ABI info - done
+[0.611s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.616s] -- Detecting C compile features
+[0.619s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.818s] -- Detecting CXX compiler ABI info - done
+[0.831s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.832s] -- Detecting CXX compile features
+[0.834s] -- Detecting CXX compile features - done
+[0.838s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.126s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.294s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.358s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.358s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.369s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.550s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.777s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.814s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.920s] -- Looking for pthread.h
+[2.064s] -- Looking for pthread.h - found
+[2.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.237s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.240s] -- Found Threads: TRUE  
+[2.498s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.660s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.662s] -- Configured cppcheck include dirs: 
+[2.662s] -- Configured cppcheck exclude dirs and/or files: 
+[2.664s] -- Added test 'lint_cmake' to check CMake code style
+[2.667s] -- Added test 'uncrustify' to check C / C++ code style
+[2.667s] -- Configured uncrustify additional arguments: 
+[2.668s] -- Added test 'xmllint' to check XML markup files
+[2.671s] -- Configuring done
+[2.682s] -- Generating done
+[2.685s] -- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[2.704s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[2.704s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[2.814s] [ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[6.567s] [100%] [32m[1mLinking CXX executable simple[0m
+[6.685s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `main':
+[6.685s] simple.cpp:(.text+0x37): undefined reference to `rcutils_get_default_allocator'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0x5c): undefined reference to `rclcpp::InitOptions::InitOptions(rcutils_allocator_s)'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0x7d): undefined reference to `rclcpp::init(int, char const* const*, rclcpp::InitOptions const&, rclcpp::SignalHandlerOptions)'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0x89): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0xca): undefined reference to `rclcpp::spin(std::shared_ptr<rclcpp::Node>)'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0x12f): undefined reference to `rclcpp::shutdown(std::shared_ptr<rclcpp::Context>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[6.685s] /usr/bin/ld: simple.cpp:(.text+0x198): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[6.686s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `void __gnu_cxx::new_allocator<rclcpp::Node>::construct<rclcpp::Node, char const (&) [12]>(rclcpp::Node*, char const (&) [12])':
+[6.686s] simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0x86): undefined reference to `rcutils_get_default_allocator'
+[6.686s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xb7): undefined reference to `rclcpp::NodeOptions::NodeOptions(rcutils_allocator_s)'
+[6.686s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xe7): undefined reference to `rclcpp::Node::Node(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'
+[6.693s] collect2: error: ld returned 1 exit status
+[6.702s] gmake[2]: *** [CMakeFiles/simple.dir/build.make:97: simple] Error 1
+[6.703s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+[6.704s] gmake: *** [Makefile:146: all] Error 2
+[6.705s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2

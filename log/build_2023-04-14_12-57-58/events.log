@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.003779] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003941] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.061420] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.061849] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1774,unix/Ubunto:/tmp/.ICE-unix/1774'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bba5e7_22cf_4aee_8844_51040a7cdb72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X4QF31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.791'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098026] (-) TimerEvent: {}
+[0.199864] (-) TimerEvent: {}
+[0.207206] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.304882] (-) TimerEvent: {}
+[0.311134] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.323335] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.407521] (-) TimerEvent: {}
+[0.512371] (-) TimerEvent: {}
+[0.614831] (-) TimerEvent: {}
+[0.621202] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.662915] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.663543] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.664842] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.680910] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.715526] (-) TimerEvent: {}
+[0.824572] (-) TimerEvent: {}
+[0.931687] (-) TimerEvent: {}
+[0.975864] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.001462] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.002048] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.003268] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.008492] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.036869] (-) TimerEvent: {}
+[1.142455] (-) TimerEvent: {}
+[1.271946] (-) TimerEvent: {}
+[1.308991] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.384509] (-) TimerEvent: {}
+[1.398656] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.429414] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.491075] (-) TimerEvent: {}
+[1.491647] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.495346] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.506805] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.531784] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.557801] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.650624] (-) TimerEvent: {}
+[1.651386] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.656656] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.753093] (-) TimerEvent: {}
+[1.860130] (-) TimerEvent: {}
+[1.907465] (my_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.948309] (my_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.965744] (-) TimerEvent: {}
+[2.024790] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.036759] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.066645] (-) TimerEvent: {}
+[2.176491] (-) TimerEvent: {}
+[2.187331] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.188100] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.277416] (-) TimerEvent: {}
+[2.388572] (-) TimerEvent: {}
+[2.395301] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.395505] (my_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.621891] (-) TimerEvent: {}
+[2.634208] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.722910] (-) TimerEvent: {}
+[2.824214] (-) TimerEvent: {}
+[2.925477] (-) TimerEvent: {}
+[3.014790] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.018321] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.019143] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.019516] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.023672] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.023921] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.025664] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.025859] (-) TimerEvent: {}
+[3.027473] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.027686] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.028799] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.054092] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.058527] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[3.058818] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.058932] (my_package) StderrLine: {'line': b'\n'}
+[3.059031] (my_package) StderrLine: {'line': b'    src/publisher.cpp\n'}
+[3.059125] (my_package) StderrLine: {'line': b'\n'}
+[3.059220] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.059405] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.059504] (my_package) StderrLine: {'line': b'\n'}
+[3.059597] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.060622] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[3.061115] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.061542] (my_package) StderrLine: {'line': b'\n'}
+[3.062446] (my_package) StderrLine: {'line': b'    src/publisher_class.cpp\n'}
+[3.062707] (my_package) StderrLine: {'line': b'\n'}
+[3.064636] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.064747] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.064844] (my_package) StderrLine: {'line': b'\n'}
+[3.064937] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.065032] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[3.065186] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.065291] (my_package) StderrLine: {'line': b'\n'}
+[3.065387] (my_package) StderrLine: {'line': b'    src/subscriber_class.cpp\n'}
+[3.065479] (my_package) StderrLine: {'line': b'\n'}
+[3.065589] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.065694] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.065786] (my_package) StderrLine: {'line': b'\n'}
+[3.065876] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.065965] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[3.066055] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.066352] (my_package) StderrLine: {'line': b'\n'}
+[3.066455] (my_package) StderrLine: {'line': b'    src/executors.cpp\n'}
+[3.066549] (my_package) StderrLine: {'line': b'\n'}
+[3.066642] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.066737] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.066831] (my_package) StderrLine: {'line': b'\n'}
+[3.066924] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.067016] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[3.067159] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.067260] (my_package) StderrLine: {'line': b'\n'}
+[3.067353] (my_package) StderrLine: {'line': b'    src/logger.cpp\n'}
+[3.067449] (my_package) StderrLine: {'line': b'\n'}
+[3.067542] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.067636] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.067729] (my_package) StderrLine: {'line': b'\n'}
+[3.067821] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.067914] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (add_executable):\n'}
+[3.068006] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.068165] (my_package) StderrLine: {'line': b'\n'}
+[3.068264] (my_package) StderrLine: {'line': b'    src/logger_class.cpp\n'}
+[3.068358] (my_package) StderrLine: {'line': b'\n'}
+[3.068450] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.068642] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.068918] (my_package) StderrLine: {'line': b'\n'}
+[3.069338] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.069525] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[3.069688] (my_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.069839] (my_package) StderrLine: {'line': b'\n'}
+[3.070039] (my_package) StderrLine: {'line': b'    src/param_reader.cpp\n'}
+[3.070201] (my_package) StderrLine: {'line': b'\n'}
+[3.070350] (my_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.070496] (my_package) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.070645] (my_package) StderrLine: {'line': b'\n'}
+[3.070797] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.071009] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[3.071261] (my_package) StderrLine: {'line': b'  No SOURCES given to target: publisher\n'}
+[3.071438] (my_package) StderrLine: {'line': b'\n'}
+[3.071606] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.071775] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[3.071996] (my_package) StderrLine: {'line': b'  No SOURCES given to target: publisher_class\n'}
+[3.072175] (my_package) StderrLine: {'line': b'\n'}
+[3.072347] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.072518] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[3.072678] (my_package) StderrLine: {'line': b'  No SOURCES given to target: subscriber_class\n'}
+[3.072855] (my_package) StderrLine: {'line': b'\n'}
+[3.073110] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.073316] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[3.073482] (my_package) StderrLine: {'line': b'  No SOURCES given to target: executors\n'}
+[3.073645] (my_package) StderrLine: {'line': b'\n'}
+[3.073806] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.074035] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[3.074202] (my_package) StderrLine: {'line': b'  No SOURCES given to target: logger\n'}
+[3.074365] (my_package) StderrLine: {'line': b'\n'}
+[3.074523] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.074693] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (add_executable):\n'}
+[3.074937] (my_package) StderrLine: {'line': b'  No SOURCES given to target: logger_class\n'}
+[3.075153] (my_package) StderrLine: {'line': b'\n'}
+[3.075337] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.075505] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[3.075666] (my_package) StderrLine: {'line': b'  No SOURCES given to target: param_reader\n'}
+[3.075891] (my_package) StderrLine: {'line': b'\n'}
+[3.098865] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[3.099568] (my_package) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[3.111787] (my_package) CommandEnded: {'returncode': 1}
+[3.126240] (-) TimerEvent: {}
+[3.162559] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[3.165764] (-) EventReactorShutdown: {}

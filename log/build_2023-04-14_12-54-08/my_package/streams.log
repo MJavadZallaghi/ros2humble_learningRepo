@@ -1,0 +1,42 @@
+[0.061s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[0.110s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.349s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.386s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.570s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.994s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.106s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.108s] -- Configured cppcheck include dirs: 
+[1.108s] -- Configured cppcheck exclude dirs and/or files: 
+[1.111s] -- Added test 'lint_cmake' to check CMake code style
+[1.114s] -- Added test 'uncrustify' to check C / C++ code style
+[1.114s] -- Configured uncrustify additional arguments: 
+[1.115s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.167s] -- Generating done
+[1.181s] -- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[1.254s] [35m[1mConsolidate compiler generated dependencies of target simple[0m
+[1.286s] [ 50%] [32m[1mLinking CXX executable simple[0m
+[1.411s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `main':
+[1.411s] simple.cpp:(.text+0x37): undefined reference to `rcutils_get_default_allocator'
+[1.411s] /usr/bin/ld: simple.cpp:(.text+0x5c): undefined reference to `rclcpp::InitOptions::InitOptions(rcutils_allocator_s)'
+[1.411s] /usr/bin/ld: simple.cpp:(.text+0x7d): undefined reference to `rclcpp::init(int, char const* const*, rclcpp::InitOptions const&, rclcpp::SignalHandlerOptions)'
+[1.412s] /usr/bin/ld: simple.cpp:(.text+0x89): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[1.412s] /usr/bin/ld: simple.cpp:(.text+0xca): undefined reference to `rclcpp::spin(std::shared_ptr<rclcpp::Node>)'
+[1.412s] /usr/bin/ld: simple.cpp:(.text+0x12f): undefined reference to `rclcpp::shutdown(std::shared_ptr<rclcpp::Context>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[1.412s] /usr/bin/ld: simple.cpp:(.text+0x198): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[1.412s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `void __gnu_cxx::new_allocator<rclcpp::Node>::construct<rclcpp::Node, char const (&) [12]>(rclcpp::Node*, char const (&) [12])':
+[1.412s] simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0x86): undefined reference to `rcutils_get_default_allocator'
+[1.412s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xb7): undefined reference to `rclcpp::NodeOptions::NodeOptions(rcutils_allocator_s)'
+[1.412s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xe7): undefined reference to `rclcpp::Node::Node(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'
+[1.412s] collect2: error: ld returned 1 exit status
+[1.430s] gmake[2]: *** [CMakeFiles/simple.dir/build.make:97: simple] Error 1
+[1.431s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+[1.431s] gmake: *** [Makefile:146: all] Error 2
+[1.441s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2

@@ -1,0 +1,137 @@
+[0.060s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[0.204s] -- The C compiler identification is GNU 11.3.0
+[0.308s] -- The CXX compiler identification is GNU 11.3.0
+[0.320s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.661s] -- Detecting C compile features - done
+[0.677s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.998s] -- Detecting CXX compile features
+[0.999s] -- Detecting CXX compile features - done
+[1.005s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.305s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.426s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.488s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.492s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.503s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.648s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.653s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.904s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.945s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.021s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.033s] -- Looking for pthread.h
+[2.184s] -- Looking for pthread.h - found
+[2.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.391s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.392s] -- Found Threads: TRUE  
+[2.630s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.011s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.015s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.015s] -- Configured cppcheck include dirs: 
+[3.016s] -- Configured cppcheck exclude dirs and/or files: 
+[3.020s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.020s] -- Configured cpplint exclude dirs and/or files: 
+[3.022s] -- Added test 'lint_cmake' to check CMake code style
+[3.024s] -- Added test 'uncrustify' to check C / C++ code style
+[3.024s] -- Configured uncrustify additional arguments: 
+[3.025s] -- Added test 'xmllint' to check XML markup files
+[3.050s] -- Configuring done
+[3.055s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[3.055s]   Cannot find source file:
+[3.055s] 
+[3.055s]     src/publisher.cpp
+[3.055s] 
+[3.055s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.056s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.056s] 
+[3.056s] [0m
+[3.057s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[3.057s]   Cannot find source file:
+[3.058s] 
+[3.059s]     src/publisher_class.cpp
+[3.061s] 
+[3.061s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.061s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.061s] 
+[3.061s] [0m
+[3.061s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[3.061s]   Cannot find source file:
+[3.061s] 
+[3.061s]     src/subscriber_class.cpp
+[3.062s] 
+[3.062s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.062s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.062s] 
+[3.062s] [0m
+[3.062s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[3.062s]   Cannot find source file:
+[3.062s] 
+[3.063s]     src/executors.cpp
+[3.063s] 
+[3.063s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.063s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.063s] 
+[3.063s] [0m
+[3.063s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[3.063s]   Cannot find source file:
+[3.063s] 
+[3.063s]     src/logger.cpp
+[3.064s] 
+[3.064s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.064s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.064s] 
+[3.064s] [0m
+[3.064s] [31mCMake Error at CMakeLists.txt:28 (add_executable):
+[3.064s]   Cannot find source file:
+[3.064s] 
+[3.064s]     src/logger_class.cpp
+[3.064s] 
+[3.065s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.065s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.065s] 
+[3.066s] [0m
+[3.066s] [31mCMake Error at CMakeLists.txt:31 (add_executable):
+[3.066s]   Cannot find source file:
+[3.066s] 
+[3.066s]     src/param_reader.cpp
+[3.066s] 
+[3.066s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.067s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.067s] 
+[3.067s] [0m
+[3.067s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[3.067s]   No SOURCES given to target: publisher
+[3.068s] 
+[3.068s] [0m
+[3.068s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[3.068s]   No SOURCES given to target: publisher_class
+[3.068s] 
+[3.069s] [0m
+[3.069s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[3.069s]   No SOURCES given to target: subscriber_class
+[3.069s] 
+[3.069s] [0m
+[3.069s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[3.070s]   No SOURCES given to target: executors
+[3.070s] 
+[3.070s] [0m
+[3.070s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[3.070s]   No SOURCES given to target: logger
+[3.071s] 
+[3.071s] [0m
+[3.071s] [31mCMake Error at CMakeLists.txt:28 (add_executable):
+[3.071s]   No SOURCES given to target: logger_class
+[3.071s] 
+[3.071s] [0m
+[3.072s] [31mCMake Error at CMakeLists.txt:31 (add_executable):
+[3.072s]   No SOURCES given to target: param_reader
+[3.095s] 
+[3.095s] [0m
+[3.096s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.108s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package

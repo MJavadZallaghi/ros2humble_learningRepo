@@ -1,0 +1,14 @@
+In file included from [01m[K/opt/ros/humble/include/rcl/rcl/client.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/wait.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package/src/simple.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:20:10:[m[K [01;31m[Kfatal error: [m[Krosidl_typesupport_interface/macros.h: No such file or directory
+   20 | #include [01;31m[K"rosidl_typesupport_interface/macros.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple.dir/build.make:76: CMakeFiles/simple.dir/src/simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

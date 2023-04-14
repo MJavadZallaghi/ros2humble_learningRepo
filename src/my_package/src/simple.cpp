@@ -1,11 +1,12 @@
-#include "rlccpp/rlccpp.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include "rcutils/logging_macros.h"
 
-int main(int argc, char* argv){
-    rlccpp::init(argc, argv);
+int main(int argc, char* argv[]){
+    rclcpp::init(argc, argv);
 
-    auto node = rlccpp::Node::make_shared("simple_node");
+    auto node = rclcpp::Node::make_shared("simple_node");
 
-    rlccpp::spin(node);
+    rclcpp::spin(node);
 
-    rlccpp::shutdown(node);
+    rclcpp::shutdown();
 }

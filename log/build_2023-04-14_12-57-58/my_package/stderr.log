@@ -1,0 +1,92 @@
+[31mCMake Error at CMakeLists.txt:13 (add_executable):
+  Cannot find source file:
+
+    src/publisher.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:16 (add_executable):
+  Cannot find source file:
+
+    src/publisher_class.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    src/subscriber_class.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    src/executors.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    src/logger.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:28 (add_executable):
+  Cannot find source file:
+
+    src/logger_class.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:31 (add_executable):
+  Cannot find source file:
+
+    src/param_reader.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:13 (add_executable):
+  No SOURCES given to target: publisher
+
+[0m
+[31mCMake Error at CMakeLists.txt:16 (add_executable):
+  No SOURCES given to target: publisher_class
+
+[0m
+[31mCMake Error at CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: subscriber_class
+
+[0m
+[31mCMake Error at CMakeLists.txt:22 (add_executable):
+  No SOURCES given to target: executors
+
+[0m
+[31mCMake Error at CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: logger
+
+[0m
+[31mCMake Error at CMakeLists.txt:28 (add_executable):
+  No SOURCES given to target: logger_class
+
+[0m
+[31mCMake Error at CMakeLists.txt:31 (add_executable):
+  No SOURCES given to target: param_reader
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

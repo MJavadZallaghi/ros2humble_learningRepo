@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package/src/simple.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl/rcl/context.h:25:10:[m[K [01;31m[Kfatal error: [m[Krmw/init.h: No such file or directory
+   25 | #include [01;31m[K"rmw/init.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple.dir/build.make:76: CMakeFiles/simple.dir/src/simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

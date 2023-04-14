@@ -1,0 +1,10 @@
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/uninstall.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/simple.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/test.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/edit_cache.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/list_install_components.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/install.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/install/local.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/install/strip.dir

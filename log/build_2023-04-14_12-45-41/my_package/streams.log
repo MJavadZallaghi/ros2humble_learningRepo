@@ -1,0 +1,21 @@
+[0.076s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target simple[0m
+[0.241s] [ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[4.247s] [100%] [32m[1mLinking CXX executable simple[0m
+[4.373s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `main':
+[4.373s] simple.cpp:(.text+0x37): undefined reference to `rcutils_get_default_allocator'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0x5c): undefined reference to `rclcpp::InitOptions::InitOptions(rcutils_allocator_s)'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0x7d): undefined reference to `rclcpp::init(int, char const* const*, rclcpp::InitOptions const&, rclcpp::SignalHandlerOptions)'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0x89): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0xca): undefined reference to `rclcpp::spin(std::shared_ptr<rclcpp::Node>)'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0x12f): undefined reference to `rclcpp::shutdown(std::shared_ptr<rclcpp::Context>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[4.373s] /usr/bin/ld: simple.cpp:(.text+0x198): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[4.373s] /usr/bin/ld: CMakeFiles/simple.dir/src/simple.cpp.o: in function `void __gnu_cxx::new_allocator<rclcpp::Node>::construct<rclcpp::Node, char const (&) [12]>(rclcpp::Node*, char const (&) [12])':
+[4.373s] simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0x86): undefined reference to `rcutils_get_default_allocator'
+[4.374s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xb7): undefined reference to `rclcpp::NodeOptions::NodeOptions(rcutils_allocator_s)'
+[4.374s] /usr/bin/ld: simple.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN6rclcpp4NodeEE9constructIS2_JRA12_KcEEEvPT_DpOT0_]+0xe7): undefined reference to `rclcpp::Node::Node(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'
+[4.380s] collect2: error: ld returned 1 exit status
+[4.387s] gmake[2]: *** [CMakeFiles/simple.dir/build.make:97: simple] Error 1
+[4.387s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+[4.389s] gmake: *** [Makefile:146: all] Error 2
+[4.394s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2

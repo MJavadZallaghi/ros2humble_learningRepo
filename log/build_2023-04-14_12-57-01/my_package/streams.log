@@ -1,0 +1,45 @@
+[0.064s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
+[0.212s] -- The C compiler identification is GNU 11.3.0
+[0.359s] -- The CXX compiler identification is GNU 11.3.0
+[0.389s] -- Detecting C compiler ABI info
+[0.696s] -- Detecting C compiler ABI info - done
+[0.736s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.737s] -- Detecting C compile features
+[0.738s] -- Detecting C compile features - done
+[0.745s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.031s] -- Detecting CXX compile features
+[1.031s] -- Detecting CXX compile features - done
+[1.037s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.344s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.484s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.531s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.588s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.595s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.621s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.775s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.777s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.989s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.041s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.143s] -- Looking for pthread.h
+[2.296s] -- Looking for pthread.h - found
+[2.298s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.467s] -- Found Threads: TRUE  
+[2.784s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.921s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[2.921s]   ament_package_xml() package name 'my_package' in '/package.xml' does not
+[2.922s]   match current PROJECT_NAME 'br2_basics'.  You must call project() with the
+[2.922s]   same package name before.
+[2.922s] Call Stack (most recent call first):
+[2.922s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.922s]   CMakeLists.txt:51 (ament_lint_auto_find_test_dependencies)
+[2.922s] 
+[2.922s] [0m
+[2.925s] -- Configuring incomplete, errors occurred!
+[2.925s] See also "/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package/CMakeFiles/CMakeOutput.log".
+[2.964s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package
