@@ -1,5 +1,16 @@
 # ros2humble_learningRepo
 To save and recall the commands, programs, and outputs from ROS2 humble learning. 
+
+## Important node
+* Always source two directory:
+1.  The main ROS packages
+```bash
+source /opt/ros/humble/setup.bash 
+```
+2. Cusstom built packages
+```bash
+source /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.bash 
+```
 ## Important ROS2 commands
 A list to save the used commands during the learning process for later simple recalling.
 
