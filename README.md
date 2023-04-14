@@ -9,9 +9,13 @@ ros2 <command> <verb> [<params>|<option>]
 ```
 </pre>
 * ROS2 standard cmd struture
-
-* $ ros2 pkg list
-    * Get the list of all available ros2 packages
+<br>
+<pre>
+```bash
+ros2 pkg list
+```
+</pre>
+* Get the list of all available ros2 packages
 
 * $ ros2 pkg executables <pkg-name>
     * Get the list of all executables of a specific pkg; e.g. name of a executable node
