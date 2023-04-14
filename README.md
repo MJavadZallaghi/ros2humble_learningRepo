@@ -3,8 +3,12 @@ To save and recall the commands, programs, and outputs from ROS2 humble learning
 ## Important ROS2 commands
 A list to save the used commands during the learning process for later simple recalling.
 
-* $ ros2 <command> <verb> [<params>|<option>]*
-    * ROS2 standard cmd struture
+<pre>
+```bash
+ros2 <command> <verb> [<params>|<option>]
+```
+</pre>
+* ROS2 standard cmd struture
 
 * $ ros2 pkg list
     * Get the list of all available ros2 packages
