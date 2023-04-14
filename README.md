@@ -52,7 +52,7 @@ ros2 interface list
 ```bash
 ros2 interface show <pkg_name/interfacec/interfaceI>
 ```
-    * Example
+* Example
  ```bash
 ros2 interface show std_msgs/msg/String
 ```   
