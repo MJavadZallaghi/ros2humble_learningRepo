@@ -12,22 +12,26 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+
+// rclcpp:Rate, node->get_logger(), and spin_some(node) are used.
+
 #include "rclcpp/rclcpp.hpp"
 
 using namespace std::chrono_literals;
 
 int main(int argc, char * argv[])
 {
-  rclcpp::init(argc, argv);
+  rclcpp::init(argc, argv); 
 
   auto node = rclcpp::Node::make_shared("logger_node");
 
-  rclcpp::Rate loop_rate(500ms);
+  rclcpp::Rate loop_rate(500ms);  // rclcpp:Rate for speed control of the loop.
   int counter = 0;
   while (rclcpp::ok()) {
-    RCLCPP_INFO(node->get_logger(), "Hello %d", counter++);
+    RCLCPP_INFO(node->get_logger(), "Hello %d", counter++); // node->get_logger() returns basic node info
 
-    rclcpp::spin_some(node);
+    rclcpp::spin_some(node);  // While spin(node) blocks waiting for new messages, spin_some(node)
+                              // returns once there are no messages left to handle. 
     loop_rate.sleep();
   }
 
