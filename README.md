@@ -88,6 +88,11 @@ ros2 topic echo /rosout
 ```bash
 ros2 run rqt_graph rqt_graph
 ```
+
+* To check the nodes and messages publsihed to /rosout topic (GUI)
+```bash
+ros2 run rqt_console rqt_console
+```
     
 * To create new packages with dependencies
 ```bash
