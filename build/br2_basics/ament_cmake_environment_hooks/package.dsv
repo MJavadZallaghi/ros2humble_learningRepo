@@ -1,0 +1,4 @@
+source;share/br2_basics/local_setup.bash
+source;share/br2_basics/local_setup.dsv
+source;share/br2_basics/local_setup.sh
+source;share/br2_basics/local_setup.zsh

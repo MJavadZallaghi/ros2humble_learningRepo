@@ -1,0 +1,24 @@
+[0.244s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[4.466s] [100%] Built target simple
+[4.543s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[4.679s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[4.784s] -- Install configuration: ""
+[4.868s] -- Execute custom install script
+[4.870s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/my_package/simple
+[4.877s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[4.879s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[4.900s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[4.902s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[4.903s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.sh
+[4.905s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.dsv
+[4.906s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.bash
+[4.907s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.sh
+[4.908s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.zsh
+[4.911s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.dsv
+[4.913s] -- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.dsv
+[4.962s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/packages/my_package
+[4.963s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.967s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[4.970s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[4.973s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.xml
+[4.982s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package

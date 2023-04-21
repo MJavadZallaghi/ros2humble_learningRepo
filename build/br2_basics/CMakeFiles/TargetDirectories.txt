@@ -1,0 +1,16 @@
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/uninstall.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/br2_basics_uninstall.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/publisher.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/publisher_class.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/subscriber_class.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/executors.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/logger.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/logger_class.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/param_reader.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/test.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/edit_cache.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/rebuild_cache.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/list_install_components.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/install.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/install/local.dir
+/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics/CMakeFiles/install/strip.dir

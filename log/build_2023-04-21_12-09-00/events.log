@@ -1,0 +1,638 @@
+[0.000000] (-) TimerEvent: {}
+[0.028598] (br2_basics) JobQueued: {'identifier': 'br2_basics', 'dependencies': OrderedDict()}
+[0.028671] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.035320] (br2_basics) JobStarted: {'identifier': 'br2_basics'}
+[0.107856] (-) TimerEvent: {}
+[0.211735] (-) TimerEvent: {}
+[0.217757] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.267823] (br2_basics) JobProgress: {'identifier': 'br2_basics', 'progress': 'cmake'}
+[0.268515] (br2_basics) Command: {'cmd': ['/usr/bin/cmake', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1760,unix/Ubunto:/tmp/.ICE-unix/1760'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4468b09_9138_4397_b9ba_d21b838f0c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KI331'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.314576] (-) TimerEvent: {}
+[0.345586] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.430384] (-) TimerEvent: {}
+[0.458859] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.459790] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', '--', '-j2', '-l2'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1760,unix/Ubunto:/tmp/.ICE-unix/1760'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4468b09_9138_4397_b9ba_d21b838f0c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KI331'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.530751] (-) TimerEvent: {}
+[0.631978] (-) TimerEvent: {}
+[0.733708] (-) TimerEvent: {}
+[0.838837] (-) TimerEvent: {}
+[0.940220] (-) TimerEvent: {}
+[1.043889] (-) TimerEvent: {}
+[1.145367] (-) TimerEvent: {}
+[1.246416] (-) TimerEvent: {}
+[1.347691] (-) TimerEvent: {}
+[1.448628] (-) TimerEvent: {}
+[1.550346] (-) TimerEvent: {}
+[1.655057] (-) TimerEvent: {}
+[1.756638] (-) TimerEvent: {}
+[1.866577] (-) TimerEvent: {}
+[1.968651] (-) TimerEvent: {}
+[2.069728] (-) TimerEvent: {}
+[2.173361] (-) TimerEvent: {}
+[2.300109] (-) TimerEvent: {}
+[2.405384] (-) TimerEvent: {}
+[2.506261] (-) TimerEvent: {}
+[2.609010] (-) TimerEvent: {}
+[2.710770] (-) TimerEvent: {}
+[2.815476] (-) TimerEvent: {}
+[2.919955] (-) TimerEvent: {}
+[3.024337] (-) TimerEvent: {}
+[3.126268] (-) TimerEvent: {}
+[3.227949] (-) TimerEvent: {}
+[3.328842] (-) TimerEvent: {}
+[3.430293] (-) TimerEvent: {}
+[3.531194] (-) TimerEvent: {}
+[3.638016] (-) TimerEvent: {}
+[3.739112] (-) TimerEvent: {}
+[3.842402] (-) TimerEvent: {}
+[3.945181] (-) TimerEvent: {}
+[4.068556] (-) TimerEvent: {}
+[4.188787] (-) TimerEvent: {}
+[4.296284] (-) TimerEvent: {}
+[4.397726] (-) TimerEvent: {}
+[4.499227] (-) TimerEvent: {}
+[4.618676] (-) TimerEvent: {}
+[4.683010] (my_package) StdoutLine: {'line': b'[100%] Built target simple\n'}
+[4.722857] (-) TimerEvent: {}
+[4.760883] (my_package) CommandEnded: {'returncode': 0}
+[4.806928] (br2_basics) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[4.823164] (-) TimerEvent: {}
+[4.881530] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[4.896041] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1760,unix/Ubunto:/tmp/.ICE-unix/1760'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4468b09_9138_4397_b9ba_d21b838f0c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KI331'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble')]), 'shell': False}
+[4.924095] (-) TimerEvent: {}
+[4.981123] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.025161] (-) TimerEvent: {}
+[5.085141] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.087065] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/my_package/simple\n'}
+[5.094646] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[5.095398] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[5.116302] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[5.119171] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[5.120297] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.sh\n'}
+[5.122277] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/environment/path.dsv\n'}
+[5.123537] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.bash\n'}
+[5.124827] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.sh\n'}
+[5.125983] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.zsh\n'}
+[5.126278] (-) TimerEvent: {}
+[5.128833] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/local_setup.dsv\n'}
+[5.129977] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.dsv\n'}
+[5.179194] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[5.180276] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.184377] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[5.186860] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[5.190508] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.xml\n'}
+[5.198939] (my_package) CommandEnded: {'returncode': 0}
+[5.226594] (-) TimerEvent: {}
+[5.328088] (-) TimerEvent: {}
+[5.430685] (-) TimerEvent: {}
+[5.533490] (-) TimerEvent: {}
+[5.636030] (-) TimerEvent: {}
+[5.737059] (-) TimerEvent: {}
+[5.839168] (-) TimerEvent: {}
+[5.940550] (-) TimerEvent: {}
+[6.042229] (-) TimerEvent: {}
+[6.145415] (-) TimerEvent: {}
+[6.246656] (-) TimerEvent: {}
+[6.348067] (-) TimerEvent: {}
+[6.451481] (-) TimerEvent: {}
+[6.552320] (-) TimerEvent: {}
+[6.649617] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[6.652658] (-) TimerEvent: {}
+[6.753714] (-) TimerEvent: {}
+[6.854322] (-) TimerEvent: {}
+[6.955570] (-) TimerEvent: {}
+[7.064298] (-) TimerEvent: {}
+[7.170575] (-) TimerEvent: {}
+[7.253272] (br2_basics) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[7.271049] (-) TimerEvent: {}
+[7.373465] (-) TimerEvent: {}
+[7.410363] (br2_basics) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.474947] (-) TimerEvent: {}
+[7.576412] (-) TimerEvent: {}
+[7.678418] (-) TimerEvent: {}
+[7.780160] (-) TimerEvent: {}
+[7.802146] (br2_basics) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.814952] (br2_basics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.816965] (br2_basics) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.838074] (br2_basics) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.856478] (br2_basics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.881257] (-) TimerEvent: {}
+[7.982480] (-) TimerEvent: {}
+[8.086582] (-) TimerEvent: {}
+[8.110111] (br2_basics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.142549] (br2_basics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.142833] (br2_basics) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.142997] (br2_basics) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.182393] (br2_basics) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.186870] (-) TimerEvent: {}
+[8.288372] (-) TimerEvent: {}
+[8.390171] (-) TimerEvent: {}
+[8.496669] (-) TimerEvent: {}
+[8.601649] (-) TimerEvent: {}
+[8.700264] (br2_basics) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[8.702474] (-) TimerEvent: {}
+[8.803557] (-) TimerEvent: {}
+[8.905228] (-) TimerEvent: {}
+[8.972415] (br2_basics) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.006159] (-) TimerEvent: {}
+[9.107591] (-) TimerEvent: {}
+[9.208734] (-) TimerEvent: {}
+[9.309691] (-) TimerEvent: {}
+[9.411213] (-) TimerEvent: {}
+[9.456770] (br2_basics) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.515250] (-) TimerEvent: {}
+[9.617173] (-) TimerEvent: {}
+[9.718265] (-) TimerEvent: {}
+[9.820018] (-) TimerEvent: {}
+[9.920908] (-) TimerEvent: {}
+[10.022930] (-) TimerEvent: {}
+[10.077383] (br2_basics) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.125649] (-) TimerEvent: {}
+[10.200236] (br2_basics) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.227402] (-) TimerEvent: {}
+[10.284636] (br2_basics) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.327838] (-) TimerEvent: {}
+[10.429832] (br2_basics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.430252] (-) TimerEvent: {}
+[10.531390] (-) TimerEvent: {}
+[10.626359] (br2_basics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.632004] (-) TimerEvent: {}
+[10.733696] (-) TimerEvent: {}
+[10.835613] (-) TimerEvent: {}
+[10.937502] (-) TimerEvent: {}
+[11.038064] (-) TimerEvent: {}
+[11.079837] (br2_basics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.128574] (br2_basics) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.138964] (-) TimerEvent: {}
+[11.241185] (-) TimerEvent: {}
+[11.342200] (-) TimerEvent: {}
+[11.450589] (-) TimerEvent: {}
+[11.551701] (-) TimerEvent: {}
+[11.652381] (-) TimerEvent: {}
+[11.753717] (-) TimerEvent: {}
+[11.816879] (br2_basics) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.854124] (-) TimerEvent: {}
+[11.900119] (br2_basics) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.954647] (-) TimerEvent: {}
+[12.004729] (br2_basics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.055649] (-) TimerEvent: {}
+[12.156777] (-) TimerEvent: {}
+[12.165044] (br2_basics) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.257976] (-) TimerEvent: {}
+[12.359016] (-) TimerEvent: {}
+[12.461618] (-) TimerEvent: {}
+[12.569456] (-) TimerEvent: {}
+[12.581508] (br2_basics) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.581754] (br2_basics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.669865] (-) TimerEvent: {}
+[12.771065] (-) TimerEvent: {}
+[12.880841] (-) TimerEvent: {}
+[12.895698] (br2_basics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.897580] (br2_basics) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.982649] (-) TimerEvent: {}
+[13.091091] (-) TimerEvent: {}
+[13.192163] (-) TimerEvent: {}
+[13.292660] (-) TimerEvent: {}
+[13.394328] (-) TimerEvent: {}
+[13.496023] (-) TimerEvent: {}
+[13.597091] (-) TimerEvent: {}
+[13.630624] (br2_basics) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.707282] (-) TimerEvent: {}
+[13.808657] (-) TimerEvent: {}
+[13.909398] (-) TimerEvent: {}
+[13.942759] (br2_basics) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.944365] (br2_basics) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.946262] (br2_basics) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.946631] (br2_basics) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.965547] (br2_basics) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.976215] (br2_basics) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.981853] (br2_basics) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.984457] (br2_basics) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.987401] (br2_basics) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.992524] (br2_basics) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.993735] (br2_basics) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.995317] (br2_basics) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.006414] (br2_basics) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.012267] (-) TimerEvent: {}
+[14.113090] (-) TimerEvent: {}
+[14.134140] (br2_basics) StdoutLine: {'line': b'-- Generating done\n'}
+[14.134366] (br2_basics) StdoutLine: {'line': b'-- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics\n'}
+[14.158006] (br2_basics) CommandEnded: {'returncode': 0}
+[14.158580] (br2_basics) JobProgress: {'identifier': 'br2_basics', 'progress': 'build'}
+[14.158621] (br2_basics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics', '--', '-j2', '-l2'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1760,unix/Ubunto:/tmp/.ICE-unix/1760'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4468b09_9138_4397_b9ba_d21b838f0c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KI331'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble')]), 'shell': False}
+[14.213794] (-) TimerEvent: {}
+[14.288654] (br2_basics) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[14.291971] (br2_basics) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o\x1b[0m\n'}
+[14.314997] (-) TimerEvent: {}
+[14.415837] (-) TimerEvent: {}
+[14.526909] (-) TimerEvent: {}
+[14.630521] (-) TimerEvent: {}
+[14.732037] (-) TimerEvent: {}
+[14.832858] (-) TimerEvent: {}
+[14.954709] (-) TimerEvent: {}
+[15.055800] (-) TimerEvent: {}
+[15.156787] (-) TimerEvent: {}
+[15.260033] (-) TimerEvent: {}
+[15.362200] (-) TimerEvent: {}
+[15.463206] (-) TimerEvent: {}
+[15.565371] (-) TimerEvent: {}
+[15.669241] (-) TimerEvent: {}
+[15.770813] (-) TimerEvent: {}
+[15.872106] (-) TimerEvent: {}
+[15.973500] (-) TimerEvent: {}
+[16.074658] (-) TimerEvent: {}
+[16.176145] (-) TimerEvent: {}
+[16.277244] (-) TimerEvent: {}
+[16.378214] (-) TimerEvent: {}
+[16.480087] (-) TimerEvent: {}
+[16.581315] (-) TimerEvent: {}
+[16.682948] (-) TimerEvent: {}
+[16.786228] (-) TimerEvent: {}
+[16.887834] (-) TimerEvent: {}
+[16.988964] (-) TimerEvent: {}
+[17.090284] (-) TimerEvent: {}
+[17.192394] (-) TimerEvent: {}
+[17.295395] (-) TimerEvent: {}
+[17.396726] (-) TimerEvent: {}
+[17.498610] (-) TimerEvent: {}
+[17.600633] (-) TimerEvent: {}
+[17.702226] (-) TimerEvent: {}
+[17.803395] (-) TimerEvent: {}
+[17.904818] (-) TimerEvent: {}
+[18.006137] (-) TimerEvent: {}
+[18.107266] (-) TimerEvent: {}
+[18.208324] (-) TimerEvent: {}
+[18.309495] (-) TimerEvent: {}
+[18.410719] (-) TimerEvent: {}
+[18.512187] (-) TimerEvent: {}
+[18.614349] (-) TimerEvent: {}
+[18.720273] (-) TimerEvent: {}
+[18.821199] (-) TimerEvent: {}
+[18.922461] (-) TimerEvent: {}
+[19.030653] (-) TimerEvent: {}
+[19.135250] (-) TimerEvent: {}
+[19.236443] (-) TimerEvent: {}
+[19.337496] (-) TimerEvent: {}
+[19.439924] (-) TimerEvent: {}
+[19.541148] (-) TimerEvent: {}
+[19.641945] (-) TimerEvent: {}
+[19.747827] (-) TimerEvent: {}
+[19.848911] (-) TimerEvent: {}
+[19.960779] (-) TimerEvent: {}
+[20.062805] (-) TimerEvent: {}
+[20.195479] (-) TimerEvent: {}
+[20.297720] (-) TimerEvent: {}
+[20.414729] (-) TimerEvent: {}
+[20.518211] (-) TimerEvent: {}
+[20.772484] (-) TimerEvent: {}
+[20.873794] (-) TimerEvent: {}
+[20.974570] (-) TimerEvent: {}
+[21.085448] (-) TimerEvent: {}
+[21.188567] (-) TimerEvent: {}
+[21.565794] (-) TimerEvent: {}
+[21.752323] (-) TimerEvent: {}
+[22.122873] (-) TimerEvent: {}
+[22.244672] (-) TimerEvent: {}
+[22.445021] (-) TimerEvent: {}
+[22.547321] (-) TimerEvent: {}
+[24.665038] (-) TimerEvent: {}
+[26.051009] (-) TimerEvent: {}
+[26.154873] (-) TimerEvent: {}
+[26.374994] (-) TimerEvent: {}
+[26.918919] (-) TimerEvent: {}
+[27.200275] (-) TimerEvent: {}
+[27.864472] (-) TimerEvent: {}
+[27.974858] (-) TimerEvent: {}
+[28.497167] (-) TimerEvent: {}
+[28.598272] (-) TimerEvent: {}
+[28.713447] (-) TimerEvent: {}
+[28.871992] (-) TimerEvent: {}
+[28.973898] (-) TimerEvent: {}
+[29.076452] (-) TimerEvent: {}
+[29.312572] (-) TimerEvent: {}
+[29.422702] (-) TimerEvent: {}
+[29.526363] (-) TimerEvent: {}
+[29.628635] (-) TimerEvent: {}
+[29.730670] (-) TimerEvent: {}
+[29.833300] (-) TimerEvent: {}
+[29.936903] (-) TimerEvent: {}
+[30.038831] (-) TimerEvent: {}
+[30.140860] (-) TimerEvent: {}
+[30.250665] (-) TimerEvent: {}
+[30.352343] (-) TimerEvent: {}
+[30.455165] (-) TimerEvent: {}
+[30.557868] (-) TimerEvent: {}
+[30.659740] (-) TimerEvent: {}
+[30.762137] (-) TimerEvent: {}
+[30.865318] (-) TimerEvent: {}
+[30.967128] (-) TimerEvent: {}
+[31.068177] (-) TimerEvent: {}
+[31.170865] (-) TimerEvent: {}
+[31.272361] (-) TimerEvent: {}
+[31.377083] (-) TimerEvent: {}
+[31.479619] (-) TimerEvent: {}
+[31.582225] (-) TimerEvent: {}
+[31.721712] (-) TimerEvent: {}
+[31.823291] (-) TimerEvent: {}
+[31.924343] (-) TimerEvent: {}
+[32.025431] (-) TimerEvent: {}
+[32.133108] (-) TimerEvent: {}
+[32.240570] (-) TimerEvent: {}
+[32.350867] (-) TimerEvent: {}
+[32.455176] (-) TimerEvent: {}
+[32.570154] (-) TimerEvent: {}
+[32.674069] (-) TimerEvent: {}
+[32.779318] (-) TimerEvent: {}
+[32.820721] (br2_basics) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[32.879778] (-) TimerEvent: {}
+[32.948867] (br2_basics) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable publisher_class\x1b[0m\n'}
+[32.979877] (-) TimerEvent: {}
+[33.080639] (-) TimerEvent: {}
+[33.181425] (-) TimerEvent: {}
+[33.283242] (-) TimerEvent: {}
+[33.384374] (-) TimerEvent: {}
+[33.485740] (-) TimerEvent: {}
+[33.586909] (-) TimerEvent: {}
+[33.691035] (-) TimerEvent: {}
+[33.792512] (-) TimerEvent: {}
+[33.900583] (-) TimerEvent: {}
+[34.005592] (-) TimerEvent: {}
+[34.111657] (-) TimerEvent: {}
+[34.123687] (br2_basics) StdoutLine: {'line': b'[ 28%] Built target publisher\n'}
+[34.133938] (br2_basics) StdoutLine: {'line': b'[ 28%] Built target publisher_class\n'}
+[34.213758] (-) TimerEvent: {}
+[34.225055] (br2_basics) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o\x1b[0m\n'}
+[34.289361] (br2_basics) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/executors.dir/src/executors.cpp.o\x1b[0m\n'}
+[34.325298] (-) TimerEvent: {}
+[34.436874] (-) TimerEvent: {}
+[41.602779] (-) TimerEvent: {}
+[41.707057] (-) TimerEvent: {}
+[41.808320] (-) TimerEvent: {}
+[42.248255] (-) TimerEvent: {}
+[43.731933] (-) TimerEvent: {}
+[43.838264] (-) TimerEvent: {}
+[43.944241] (-) TimerEvent: {}
+[45.907127] (-) TimerEvent: {}
+[46.010493] (-) TimerEvent: {}
+[46.118550] (-) TimerEvent: {}
+[46.222017] (-) TimerEvent: {}
+[46.324001] (-) TimerEvent: {}
+[46.424769] (-) TimerEvent: {}
+[46.526047] (-) TimerEvent: {}
+[46.629449] (-) TimerEvent: {}
+[46.732030] (-) TimerEvent: {}
+[46.834637] (-) TimerEvent: {}
+[46.936805] (-) TimerEvent: {}
+[47.039749] (-) TimerEvent: {}
+[47.142556] (-) TimerEvent: {}
+[47.244456] (-) TimerEvent: {}
+[47.347354] (-) TimerEvent: {}
+[47.449638] (-) TimerEvent: {}
+[47.551276] (-) TimerEvent: {}
+[47.653765] (-) TimerEvent: {}
+[47.756948] (-) TimerEvent: {}
+[47.858249] (-) TimerEvent: {}
+[47.959885] (-) TimerEvent: {}
+[48.062515] (-) TimerEvent: {}
+[48.164513] (-) TimerEvent: {}
+[48.267787] (-) TimerEvent: {}
+[48.368606] (-) TimerEvent: {}
+[48.469772] (-) TimerEvent: {}
+[48.571807] (-) TimerEvent: {}
+[48.673297] (-) TimerEvent: {}
+[48.777311] (-) TimerEvent: {}
+[48.878773] (-) TimerEvent: {}
+[48.980368] (-) TimerEvent: {}
+[49.082152] (-) TimerEvent: {}
+[49.183766] (-) TimerEvent: {}
+[49.284536] (-) TimerEvent: {}
+[49.385634] (-) TimerEvent: {}
+[49.486465] (-) TimerEvent: {}
+[49.589298] (-) TimerEvent: {}
+[49.690601] (-) TimerEvent: {}
+[49.796518] (-) TimerEvent: {}
+[49.899562] (-) TimerEvent: {}
+[50.001697] (-) TimerEvent: {}
+[50.102825] (-) TimerEvent: {}
+[50.204424] (-) TimerEvent: {}
+[50.305850] (-) TimerEvent: {}
+[50.408700] (-) TimerEvent: {}
+[50.510835] (-) TimerEvent: {}
+[50.611992] (-) TimerEvent: {}
+[50.722722] (-) TimerEvent: {}
+[50.824747] (-) TimerEvent: {}
+[50.926695] (-) TimerEvent: {}
+[51.029972] (-) TimerEvent: {}
+[51.131822] (-) TimerEvent: {}
+[51.234911] (-) TimerEvent: {}
+[51.337478] (-) TimerEvent: {}
+[51.439138] (-) TimerEvent: {}
+[51.540880] (-) TimerEvent: {}
+[51.642208] (-) TimerEvent: {}
+[51.809462] (-) TimerEvent: {}
+[51.915451] (-) TimerEvent: {}
+[52.656285] (-) TimerEvent: {}
+[52.761337] (-) TimerEvent: {}
+[53.547812] (-) TimerEvent: {}
+[53.601521] (br2_basics) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable subscriber_class\x1b[0m\n'}
+[53.654065] (-) TimerEvent: {}
+[53.836653] (-) TimerEvent: {}
+[54.145267] (-) TimerEvent: {}
+[54.301892] (-) TimerEvent: {}
+[54.324572] (br2_basics) StdoutLine: {'line': b'[ 50%] Built target subscriber_class\n'}
+[54.955337] (-) TimerEvent: {}
+[55.057126] (-) TimerEvent: {}
+[55.064259] (br2_basics) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable executors\x1b[0m\n'}
+[55.642733] (-) TimerEvent: {}
+[55.743963] (-) TimerEvent: {}
+[55.766783] (br2_basics) StdoutLine: {'line': b'[ 57%] Built target executors\n'}
+[55.829665] (br2_basics) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/logger.dir/src/logger.cpp.o\x1b[0m\n'}
+[55.844191] (-) TimerEvent: {}
+[55.945202] (-) TimerEvent: {}
+[56.045749] (-) TimerEvent: {}
+[56.146294] (-) TimerEvent: {}
+[56.247117] (-) TimerEvent: {}
+[56.348461] (-) TimerEvent: {}
+[56.449267] (-) TimerEvent: {}
+[56.550384] (-) TimerEvent: {}
+[56.651272] (-) TimerEvent: {}
+[56.751959] (-) TimerEvent: {}
+[56.852754] (-) TimerEvent: {}
+[56.953900] (-) TimerEvent: {}
+[57.055275] (-) TimerEvent: {}
+[57.156686] (-) TimerEvent: {}
+[57.257574] (-) TimerEvent: {}
+[57.358422] (-) TimerEvent: {}
+[57.458866] (-) TimerEvent: {}
+[57.559954] (-) TimerEvent: {}
+[57.660637] (-) TimerEvent: {}
+[57.761371] (-) TimerEvent: {}
+[57.862106] (-) TimerEvent: {}
+[57.962936] (-) TimerEvent: {}
+[58.063854] (-) TimerEvent: {}
+[58.164787] (-) TimerEvent: {}
+[58.265474] (-) TimerEvent: {}
+[58.366407] (-) TimerEvent: {}
+[58.472518] (-) TimerEvent: {}
+[58.573528] (-) TimerEvent: {}
+[58.674021] (-) TimerEvent: {}
+[58.776907] (-) TimerEvent: {}
+[58.877759] (-) TimerEvent: {}
+[58.979914] (-) TimerEvent: {}
+[59.080393] (-) TimerEvent: {}
+[59.180911] (-) TimerEvent: {}
+[59.281598] (-) TimerEvent: {}
+[59.382564] (-) TimerEvent: {}
+[59.483578] (-) TimerEvent: {}
+[59.584154] (-) TimerEvent: {}
+[59.685056] (-) TimerEvent: {}
+[59.785972] (-) TimerEvent: {}
+[59.886896] (-) TimerEvent: {}
+[59.987595] (-) TimerEvent: {}
+[60.088288] (-) TimerEvent: {}
+[60.188884] (-) TimerEvent: {}
+[60.290230] (-) TimerEvent: {}
+[60.390857] (-) TimerEvent: {}
+[60.491818] (-) TimerEvent: {}
+[60.592551] (-) TimerEvent: {}
+[60.693031] (-) TimerEvent: {}
+[60.793593] (-) TimerEvent: {}
+[60.894416] (-) TimerEvent: {}
+[60.995685] (-) TimerEvent: {}
+[61.096750] (-) TimerEvent: {}
+[61.103983] (br2_basics) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable logger\x1b[0m\n'}
+[61.197402] (-) TimerEvent: {}
+[61.298734] (-) TimerEvent: {}
+[61.382193] (br2_basics) StdoutLine: {'line': b'[ 71%] Built target logger\n'}
+[61.399371] (-) TimerEvent: {}
+[61.432906] (br2_basics) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/logger_class.dir/src/logger_class.cpp.o\x1b[0m\n'}
+[61.499708] (-) TimerEvent: {}
+[61.600738] (-) TimerEvent: {}
+[61.705716] (-) TimerEvent: {}
+[61.810723] (-) TimerEvent: {}
+[62.899794] (-) TimerEvent: {}
+[64.198598] (-) TimerEvent: {}
+[65.827690] (-) TimerEvent: {}
+[65.934026] (-) TimerEvent: {}
+[66.038908] (-) TimerEvent: {}
+[66.144312] (-) TimerEvent: {}
+[66.245466] (-) TimerEvent: {}
+[66.316064] (br2_basics) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable logger_class\x1b[0m\n'}
+[66.345888] (-) TimerEvent: {}
+[66.447218] (-) TimerEvent: {}
+[66.548779] (-) TimerEvent: {}
+[66.607245] (br2_basics) StdoutLine: {'line': b'[ 85%] Built target logger_class\n'}
+[66.649364] (-) TimerEvent: {}
+[66.653375] (br2_basics) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/param_reader.dir/src/param_reader.cpp.o\x1b[0m\n'}
+[66.749709] (-) TimerEvent: {}
+[66.850425] (-) TimerEvent: {}
+[66.952413] (-) TimerEvent: {}
+[67.053546] (-) TimerEvent: {}
+[67.154252] (-) TimerEvent: {}
+[67.255479] (-) TimerEvent: {}
+[67.356288] (-) TimerEvent: {}
+[67.456968] (-) TimerEvent: {}
+[67.557863] (-) TimerEvent: {}
+[67.659201] (-) TimerEvent: {}
+[67.760169] (-) TimerEvent: {}
+[67.860971] (-) TimerEvent: {}
+[67.961656] (-) TimerEvent: {}
+[68.062293] (-) TimerEvent: {}
+[68.164037] (-) TimerEvent: {}
+[68.265261] (-) TimerEvent: {}
+[68.365926] (-) TimerEvent: {}
+[68.467372] (-) TimerEvent: {}
+[68.568683] (-) TimerEvent: {}
+[68.669697] (-) TimerEvent: {}
+[68.774531] (-) TimerEvent: {}
+[68.875201] (-) TimerEvent: {}
+[68.976516] (-) TimerEvent: {}
+[69.077167] (-) TimerEvent: {}
+[69.178152] (-) TimerEvent: {}
+[69.279179] (-) TimerEvent: {}
+[69.379915] (-) TimerEvent: {}
+[69.481020] (-) TimerEvent: {}
+[69.582506] (-) TimerEvent: {}
+[69.689061] (-) TimerEvent: {}
+[69.790263] (-) TimerEvent: {}
+[69.892231] (-) TimerEvent: {}
+[69.992703] (-) TimerEvent: {}
+[70.093683] (-) TimerEvent: {}
+[70.198674] (-) TimerEvent: {}
+[70.307914] (-) TimerEvent: {}
+[70.413829] (-) TimerEvent: {}
+[70.515242] (-) TimerEvent: {}
+[70.616401] (-) TimerEvent: {}
+[70.716896] (-) TimerEvent: {}
+[70.817579] (-) TimerEvent: {}
+[70.918970] (-) TimerEvent: {}
+[71.020104] (-) TimerEvent: {}
+[71.120992] (-) TimerEvent: {}
+[71.222182] (-) TimerEvent: {}
+[71.322887] (-) TimerEvent: {}
+[71.423941] (-) TimerEvent: {}
+[71.524796] (-) TimerEvent: {}
+[71.625878] (-) TimerEvent: {}
+[71.726735] (-) TimerEvent: {}
+[71.827581] (-) TimerEvent: {}
+[71.928245] (-) TimerEvent: {}
+[72.029195] (-) TimerEvent: {}
+[72.130024] (-) TimerEvent: {}
+[72.230675] (-) TimerEvent: {}
+[72.331961] (-) TimerEvent: {}
+[72.432786] (-) TimerEvent: {}
+[72.533628] (-) TimerEvent: {}
+[72.634599] (-) TimerEvent: {}
+[72.708780] (br2_basics) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable param_reader\x1b[0m\n'}
+[72.734872] (-) TimerEvent: {}
+[72.835934] (-) TimerEvent: {}
+[72.936780] (-) TimerEvent: {}
+[73.002001] (br2_basics) StdoutLine: {'line': b'[100%] Built target param_reader\n'}
+[73.028343] (br2_basics) CommandEnded: {'returncode': 0}
+[73.037634] (-) TimerEvent: {}
+[73.138337] (-) TimerEvent: {}
+[73.239236] (-) TimerEvent: {}
+[73.245311] (br2_basics) JobProgress: {'identifier': 'br2_basics', 'progress': 'install'}
+[73.245847] (br2_basics) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics'], 'cwd': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'mjavadzallaghi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mjavadzallaghi'), ('OLDPWD', '/home/mjavadzallaghi/bookros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mjavadzallaghi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mjavadzallaghi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1760,unix/Ubunto:/tmp/.ICE-unix/1760'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4468b09_9138_4397_b9ba_d21b838f0c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KI331'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package:/opt/ros/humble')]), 'shell': False}
+[73.261712] (br2_basics) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.262801] (br2_basics) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[73.265629] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher\n'}
+[73.290992] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher_class\n'}
+[73.308922] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/subscriber_class\n'}
+[73.325250] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/executors\n'}
+[73.340631] (-) TimerEvent: {}
+[73.343049] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger\n'}
+[73.359439] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger_class\n'}
+[73.376249] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/param_reader\n'}
+[73.393647] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/includer_launch.py\n'}
+[73.410245] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py\n'}
+[73.425050] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py\n'}
+[73.440936] (-) TimerEvent: {}
+[73.444253] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py\n'}
+[73.474741] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py\n'}
+[73.503337] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/config/params.yaml\n'}
+[73.521021] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics\n'}
+[73.535600] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics\n'}
+[73.541907] (-) TimerEvent: {}
+[73.550466] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh\n'}
+[73.565208] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv\n'}
+[73.592100] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.sh\n'}
+[73.605343] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.dsv\n'}
+[73.619831] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.bash\n'}
+[73.635810] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.sh\n'}
+[73.642863] (-) TimerEvent: {}
+[73.650949] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.zsh\n'}
+[73.666383] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.dsv\n'}
+[73.689016] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.dsv\n'}
+[73.705960] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/packages/br2_basics\n'}
+[73.720737] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.735606] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake\n'}
+[73.743214] (-) TimerEvent: {}
+[73.749726] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake\n'}
+[73.763278] (br2_basics) StdoutLine: {'line': b'-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.xml\n'}
+[73.812496] (br2_basics) CommandEnded: {'returncode': 0}
+[73.844022] (-) TimerEvent: {}
+[73.944802] (-) TimerEvent: {}
+[74.053519] (-) TimerEvent: {}
+[74.090835] (br2_basics) JobEnded: {'identifier': 'br2_basics', 'rc': 0}
+[74.094583] (-) EventReactorShutdown: {}

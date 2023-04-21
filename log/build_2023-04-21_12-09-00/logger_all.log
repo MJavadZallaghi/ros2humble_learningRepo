@@ -1,0 +1,207 @@
+[7.667s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[7.668s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2140eb1b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f21416b0c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f21416b0c40>>)
+[8.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.568s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo'
+[8.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.682s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.682s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.683s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.683s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.685s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.685s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extensions ['ignore', 'ignore_ament_install']
+[8.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extension 'ignore'
+[8.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extension 'ignore_ament_install'
+[8.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extensions ['colcon_pkg']
+[8.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extension 'colcon_pkg'
+[8.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extensions ['colcon_meta']
+[8.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extension 'colcon_meta'
+[8.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extensions ['ros']
+[8.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/br2_basics) by extension 'ros'
+[8.750s] DEBUG:colcon.colcon_core.package_identification:Package 'src/br2_basics' with type 'ros.ament_cmake' and name 'br2_basics'
+[8.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[8.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[8.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[8.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[8.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[8.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[8.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[8.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install
+[9.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[9.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.588s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_args' from command line to 'None'
+[9.589s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_target' from command line to 'None'
+[9.589s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.589s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_clean_cache' from command line to 'False'
+[9.590s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_clean_first' from command line to 'False'
+[9.590s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'cmake_force_configure' from command line to 'False'
+[9.590s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'ament_cmake_args' from command line to 'None'
+[9.590s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'catkin_cmake_args' from command line to 'None'
+[9.591s] Level 5:colcon.colcon_core.verb:set package 'br2_basics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.591s] DEBUG:colcon.colcon_core.verb:Building package 'br2_basics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics', 'merge_install': False, 'path': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics', 'symlink_install': True, 'test_result_base': None}
+[9.593s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[9.594s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[9.594s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[9.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[9.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.596s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package', 'merge_install': False, 'path': '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[9.597s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics' with build type 'ament_cmake'
+[9.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics'
+[9.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package' with build type 'ament_cmake'
+[9.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/my_package'
+[9.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics
+[10.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[14.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package -- -j2 -l2
+[14.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[14.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[14.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/my_package
+[15.769s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package' for CMake module files
+[15.771s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package' for CMake config files
+[15.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[15.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[15.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[15.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[15.916s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib'
+[15.917s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/bin'
+[15.917s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/pkgconfig/my_package.pc'
+[15.917s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/python3.10/site-packages'
+[15.918s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/bin'
+[15.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.ps1'
+[15.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.dsv'
+[15.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.sh'
+[15.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.bash'
+[16.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.zsh'
+[16.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/colcon-core/packages/my_package)
+[16.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[16.186s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package' for CMake module files
+[16.187s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package' for CMake config files
+[16.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[16.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[16.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[16.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[16.207s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/bin'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/pkgconfig/my_package.pc'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/lib/python3.10/site-packages'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/bin'
+[16.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.ps1'
+[16.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.dsv'
+[16.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.sh'
+[16.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.bash'
+[16.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/my_package/package.zsh'
+[16.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/my_package/share/colcon-core/packages/my_package)
+[23.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/src/br2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics
+[23.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics -- -j2 -l2
+[82.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics -- -j2 -l2
+[82.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics
+[83.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(br2_basics)
+[83.408s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics' for CMake module files
+[83.409s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics' for CMake config files
+[83.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('br2_basics', 'cmake_prefix_path')
+[83.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.ps1'
+[83.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.dsv'
+[83.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics
+[83.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.sh'
+[83.420s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib'
+[83.420s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/bin'
+[83.421s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/pkgconfig/br2_basics.pc'
+[83.421s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/python3.10/site-packages'
+[83.421s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/bin'
+[83.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.ps1'
+[83.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.dsv'
+[83.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.sh'
+[83.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.bash'
+[83.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.zsh'
+[83.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/colcon-core/packages/br2_basics)
+[83.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(br2_basics)
+[83.642s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics' for CMake module files
+[83.643s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics' for CMake config files
+[83.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('br2_basics', 'cmake_prefix_path')
+[83.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.ps1'
+[83.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.dsv'
+[83.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/hook/cmake_prefix_path.sh'
+[83.673s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib'
+[83.673s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/bin'
+[83.673s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/pkgconfig/br2_basics.pc'
+[83.674s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/python3.10/site-packages'
+[83.674s] Level 1:colcon.colcon_core.environment:checking '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/bin'
+[83.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.ps1'
+[83.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.dsv'
+[83.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.sh'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.bash'
+[83.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.zsh'
+[83.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/colcon-core/packages/br2_basics)
+[83.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[83.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[83.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[83.695s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[83.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[83.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[83.890s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[83.990s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[83.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/local_setup.ps1'
+[84.040s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/_local_setup_util_ps1.py'
+[84.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.ps1'
+[84.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/local_setup.sh'
+[84.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/_local_setup_util_sh.py'
+[84.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.sh'
+[84.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/local_setup.bash'
+[84.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.bash'
+[84.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/local_setup.zsh'
+[84.252s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.zsh'

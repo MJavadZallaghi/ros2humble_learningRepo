@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics
+[ 14%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable publisher[0m
+[ 28%] [32m[1mLinking CXX executable publisher_class[0m
+[ 28%] Built target publisher
+[ 28%] Built target publisher_class
+[ 35%] [32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/executors.dir/src/executors.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable subscriber_class[0m
+[ 50%] Built target subscriber_class
+[ 57%] [32m[1mLinking CXX executable executors[0m
+[ 57%] Built target executors
+[ 64%] [32mBuilding CXX object CMakeFiles/logger.dir/src/logger.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable logger[0m
+[ 71%] Built target logger
+[ 78%] [32mBuilding CXX object CMakeFiles/logger_class.dir/src/logger_class.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable logger_class[0m
+[ 85%] Built target logger_class
+[ 92%] [32mBuilding CXX object CMakeFiles/param_reader.dir/src/param_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable param_reader[0m
+[100%] Built target param_reader
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher_class
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/subscriber_class
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/executors
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger_class
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/param_reader
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/includer_launch.py
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/config/params.yaml
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.sh
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.dsv
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.bash
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.sh
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.zsh
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.dsv
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.dsv
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+-- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.xml
