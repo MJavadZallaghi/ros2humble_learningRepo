@@ -99,13 +99,18 @@ ros2 run rqt_console rqt_console
 ros2 pkg create my_package --dependencies rclcpp std_msgs 
 ```
 
-* To compile a new package
+* To compile all the packages in the src directory
 ```bash
 colcon build --symlink-install
+```
+
+* To compile only one spiciific package in the src directory
+```bash
+colcon build --symlink-install --packages-select br2_basics
 ```
     
 
 
 
 ## To do list
-1. Learn node developing and share the commands/crated node in the repo.
+1. 

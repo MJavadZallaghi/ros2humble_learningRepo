@@ -25,7 +25,7 @@ int main(int argc, char * argv[])
 
   auto node = rclcpp::Node::make_shared("logger_node");
 
-  rclcpp::Rate loop_rate(500ms);  // rclcpp:Rate for speed control of the loop.
+  rclcpp::Rate loop_rate(250ms);  // rclcpp:Rate for speed control of the loop.
   int counter = 0;
   while (rclcpp::ok()) {
     RCLCPP_INFO(node->get_logger(), "Hello %d", counter++); // node->get_logger() returns basic node info

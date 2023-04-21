@@ -1,0 +1,51 @@
+[0.060s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics -- -j2 -l2
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target publisher_class[0m
+[0.223s] [ 21%] Built target publisher
+[0.226s] [ 28%] Built target publisher_class
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target executors[0m
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target subscriber_class[0m
+[0.314s] [ 42%] Built target executors
+[0.317s] [ 57%] Built target subscriber_class
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target logger[0m
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target logger_class[0m
+[0.410s] [ 71%] Built target logger_class
+[0.423s] [ 78%] [32mBuilding CXX object CMakeFiles/logger.dir/src/logger.cpp.o[0m
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target param_reader[0m
+[0.522s] [ 92%] Built target param_reader
+[5.222s] [100%] [32m[1mLinking CXX executable logger[0m
+[5.441s] [100%] Built target logger
+[5.460s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics -- -j2 -l2
+[5.639s] Invoking command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics
+[5.653s] -- Install configuration: ""
+[5.656s] -- Execute custom install script
+[5.658s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher
+[5.660s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/publisher_class
+[5.662s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/subscriber_class
+[5.663s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/executors
+[5.663s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger
+[5.664s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/logger_class
+[5.664s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/lib/br2_basics/param_reader
+[5.665s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/includer_launch.py
+[5.665s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+[5.666s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+[5.666s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+[5.667s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+[5.667s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/config/params.yaml
+[5.668s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+[5.669s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+[5.669s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+[5.670s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+[5.670s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.sh
+[5.671s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/environment/path.dsv
+[5.671s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.bash
+[5.672s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.sh
+[5.672s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.zsh
+[5.672s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/local_setup.dsv
+[5.672s] -- Symlinking: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.dsv
+[5.676s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+[5.677s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.678s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+[5.678s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+[5.681s] -- Up-to-date symlink: /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/br2_basics/share/br2_basics/package.xml
+[5.695s] Invoked command in '/home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/build/br2_basics
