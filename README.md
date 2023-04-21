@@ -63,10 +63,15 @@ ros2 interface list
 ```bash
 ros2 interface show <pkg_name/interfacec/interfaceI>
 ```
-* Example
+* Example 1
  ```bash
 ros2 interface show std_msgs/msg/String
 ```   
+
+* Example 1
+ ```bash
+ros2 interface show rcl_interfaces/msg/Log
+``` 
 
 * To echo messages bublished by a topic
 ```bash
