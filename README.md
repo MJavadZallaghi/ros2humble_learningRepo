@@ -1,7 +1,7 @@
 # ros2humble_learningRepo
 To save and recall the commands, programs, and outputs from ROS2 humble learning. 
 
-## Important node
+## Important notes
 * Always source two directory:
 1.  The main ROS packages
 ```bash
@@ -141,5 +141,5 @@ colcon build --symlink-install --packages-select br2_basics
 
 
 ## To do list
-1. Learn how to run a node (with a simple task) in a constant rate (frequency)
+1. <del>Learn how to run a node (with a simple task) in a constant rate (frequency). </del>
 2. Learn how to run a node (task) iteratively.
