@@ -68,7 +68,7 @@ ros2 interface show <pkg_name/interfacec/interfaceI>
 ros2 interface show std_msgs/msg/String
 ```   
 
-* Example 1
+* Example 2
  ```bash
 ros2 interface show rcl_interfaces/msg/Log
 ``` 
