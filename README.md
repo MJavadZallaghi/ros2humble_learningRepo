@@ -72,10 +72,16 @@ ros2 interface show std_msgs/msg/String
 ```bash
 ros2 topic echo /<topic_name>
 ```
+
+* To echo messages bublished by /rosout topic
+e.g. logger.cpp in br2_basics package
+```bash
+ros2 topic echo /rosout
+```
     
 * To draw computational graph of the current running ros2 architecture (GUI)
 ```bash
-ros2 run rqt graph rqt graph
+ros2 run rqt_graph rqt_graph
 ```
     
 * To create new packages with dependencies
