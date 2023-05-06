@@ -38,6 +38,15 @@ br2_basics/src/logger.cpp
 // Overall, this program demonstrates the basic structure of a ROS 2.0 node and how to publish messages to its logger.
 
 ```
+```bash
+br2_basics/src/logger_class.cpp
+```
+```cpp
+// This is a C++ program that creates a ROS2 node called "logger_node". The node is implemented as a class called "LoggerNode" which inherits from rclcpp::Node.
+// It has a member variable "timer_" which is a shared pointer to a TimerBase object. The timer is created in the constructor of the LoggerNode class with a period of 500 milliseconds and a callback function called "timer_callback".
+// The timer_callback function is called every time the timer expires and it prints a message to the console using the RCLCPP_INFO macro.
+// The main function initializes the ROS2 runtime, creates an instance of the LoggerNode class and spins it, which means that it runs until the node is shut down. Finally, the ROS2 runtime is shut down and the program returns 0.
+```
 
 ## Important ROS2 commands
 A list to save the used commands during the learning process for later simple recalling.
@@ -142,4 +151,5 @@ colcon build --symlink-install --packages-select br2_basics
 
 ## To do list
 1. <del>Learn how to run a node (with a simple task) in a constant rate (frequency). </del>
-2. Learn how to run a node (task) iteratively.
+2. <del>Learn how to run a node (task) iteratively. </del>
+3.  Learn the Node programming for publishing and subscribing.
