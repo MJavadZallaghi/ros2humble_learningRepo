@@ -21,7 +21,7 @@ public:
     // Create a timer with a 500 millisecond period that calls the timer_callback function
     // The std::bind function is used to bind the this pointer to the function, so that
     // the callback can access the member variables of the LoggerNode object
-    timer_ = create_wall_timer(500ms, std::bind(&LoggerNode::timer_callback, this));
+    timer_ = create_wall_timer(500ms, std::bind(&LoggerNode::custom_func_execute, this));
   }
 
   // Define the timer_callback function
@@ -30,6 +30,16 @@ public:
     // Print a message to the console using the RCLCPP_INFO macro
     // The message includes the value of the counter variable
     RCLCPP_INFO(get_logger(), "Hello %d", counter_++);
+  }
+
+
+  // Define a custom function to execute iteratively by the node
+  void custom_func_execute()
+  {
+    // Print a message to the console using the RCLCPP_INFO macro
+    // The message includes the value of the counter variable
+    std::cout<<"This is a cusstom fixed-rate executed function by Mohammad Javad Zallaghi\n";
+    std::cout<<counter_++<<std::endl;
   }
 
 private:
