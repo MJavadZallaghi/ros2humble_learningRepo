@@ -36,7 +36,6 @@ br2_basics/src/logger.cpp
 // The program then sleeps for a period of time determined by the loop_rate object, which is set to 250ms. This rate is used to control the speed of the loop so that it doesn't run too fast.
 // Finally, when the loop is finished, the program calls rclcpp::shutdown to release any resources used by the ROS 2.0 system and returns 0.
 // Overall, this program demonstrates the basic structure of a ROS 2.0 node and how to publish messages to its logger.
-
 ```
 ```bash
 br2_basics/src/logger_class.cpp
@@ -46,6 +45,25 @@ br2_basics/src/logger_class.cpp
 // It has a member variable "timer_" which is a shared pointer to a TimerBase object. The timer is created in the constructor of the LoggerNode class with a period of 500 milliseconds and a callback function called "timer_callback".
 // The timer_callback function is called every time the timer expires and it prints a message to the console using the RCLCPP_INFO macro.
 // The main function initializes the ROS2 runtime, creates an instance of the LoggerNode class and spins it, which means that it runs until the node is shut down. Finally, the ROS2 runtime is shut down and the program returns 0.
+```
+```bash
+br2_basics/src/publisher_class.cpp
+```
+```cpp
+// This code demonstrates a simple ROS (Robot Operating System) publisher node written in C++. The code includes the necessary header files and namespaces, and defines a class called `PublisherNode` that inherits from `rclcpp::Node`, which represents a ROS node.
+// The constructor of `PublisherNode` creates a publisher that publishes messages of type `std_msgs::msg::Int32` to a topic named "int_topic" with a queue size of 10. It also creates a timer that calls the `timer_callback` function every 500 milliseconds.
+// The `timer_callback` function increments the data value of the message and publishes it using the publisher. In the `main` function, the ROS node is initialized, an instance of `PublisherNode` is created, and the node is spun to execute its callbacks.
+// Finally, the ROS system is shutdown, and the program terminates.
+```
+```bash
+br2_basics/src/publisher.cpp
+```
+```cpp
+// This code is a simple example of a ROS (Robot Operating System) publisher node written in C++. It includes the necessary header files and uses the "rclcpp" library for ROS 2 to handle communication. 
+// The code initializes the ROS 2 node and creates a publisher that publishes messages of type "std_msgs::msg::Int32" to a topic named "int_topic". The publisher is set to have a queue size of 10, meaning it can buffer up to 10 messages before they are dropped.
+// Inside the main loop, a message of type "std_msgs::msg::Int32" is created and its data field is set to 0. Then, the message is published using the publisher. The data field of the message is incremented by 1 in each iteration, and the updated message is published again.
+// The loop runs as long as the ROS 2 system is in a valid state (rclcpp::ok()). Within each iteration of the loop, the function rclcpp::spin_some() is called to process any pending callbacks and the loop is paused for 500 milliseconds using the loop_rate object.
+// After the loop ends, the ROS 2 system is shut down by calling rclcpp::shutdown(). Finally, the program returns 0 to indicate successful execution.
 ```
 
 ## Important ROS2 commands
@@ -153,4 +171,5 @@ colcon build --symlink-install --packages-select br2_basics
 1. <del>Create a Node in cpp and spin it.</del>
 2. <del>Run a node (with a simple task) in a constant rate (frequency). </del>
 3. <del>Run a node (task) iteratively. </del>
-4.  Publish message from Node to a new topic.
+4. <del> Create a publisher node with class structure. </del>
+5. <del> Create a publisher node with a timer to control publishing frequency. </del>
