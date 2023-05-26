@@ -150,6 +150,7 @@ colcon build --symlink-install --packages-select br2_basics
 
 
 ## To do list
-1. <del>Learn how to run a node (with a simple task) in a constant rate (frequency). </del>
-2. <del>Learn how to run a node (task) iteratively. </del>
-3.  Learn the Node programming for publishing and subscribing.
+1. <del>Create a Node in cpp and spin it.</del>
+2. <del>Run a node (with a simple task) in a constant rate (frequency). </del>
+3. <del>Run a node (task) iteratively. </del>
+4.  Publish message from Node to a new topic.
