@@ -136,6 +136,6 @@ colcon build --symlink-install --packages-select br2_basics
 3. <del>Run a node (task) iteratively. </del>
 4. <del> Create a publisher node with class structure. </del>
 5. <del> Create a publisher node with a timer to control publishing frequency. </del>
-6. Create a subscriber node which manipulates data.
+6. <del> Create a subscriber node which manipulates data. [subscriber_manipulator node created as my first manipulator data node.] </del>
 7. Create a node which is a subcriber to topic X and publishes to topic Y.
 8. Create an execcutor (two nodes: subscriber and publisher together execution).
