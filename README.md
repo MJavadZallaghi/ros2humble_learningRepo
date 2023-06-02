@@ -12,23 +12,6 @@ source /opt/ros/humble/setup.bash
 source /home/mjavadzallaghi/bookros2/ros2humble_learningRepo/install/setup.bash 
 ```
 
-## Explanation of the codes in the packages
-```bash
-my_packege/src/simple.cpp # A simple node in cpp
-```
-```bash
-br2_basics/src/logger.cpp   # A logger node without class
-```
-```bash
-br2_basics/src/logger_class.cpp # A logger node with class
-```
-```bash
-br2_basics/src/publisher_class.cpp  # A publisher node with class
-```
-```bash
-br2_basics/src/publisher.cpp    # A publisher node withoout class
-```
-
 ## Important ROS2 commands
 A list to save the used commands during the learning process for later simple recalling.
 
