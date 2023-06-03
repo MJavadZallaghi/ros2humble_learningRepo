@@ -126,4 +126,5 @@ ros2 launch [package-name] [launch-file-name].py
 5. <del> Create a publisher node with a timer to control publishing frequency. </del>
 6. <del> Create a subscriber node which manipulates data. [subscriber_manipulator node created as my first manipulator data node.] </del>
 7. <del> Create a node which is a subcriber to topic X and publishes to topic Y [node_xx_subs_yy_pub mode is created to act as simultanous subscriber and publisher.] <</del>>.
-8. Create an execcutor (two nodes: subscriber and publisher together execution).
+8. Create a custom node with parameters.
+9. Create an execcutor (two nodes: subscriber and publisher together execution).
