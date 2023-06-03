@@ -109,6 +109,11 @@ colcon build --symlink-install
 ```bash
 colcon build --symlink-install --packages-select br2_basics
 ```
+
+* To launch a [Python] launch file (a group of node names. etc to run together)
+```bash
+ros2 launch [package-name] [launch-file-name].py
+```
     
 
 
