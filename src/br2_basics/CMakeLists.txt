@@ -34,6 +34,11 @@ ament_target_dependencies(param_reader ${dependencies})
 add_executable(subscriber_manipulator src/subscriber_manipulator.cpp)
 ament_target_dependencies(subscriber_manipulator ${dependencies})
 
+
+add_executable(node_xx_subs_yy_pub src/node_xx_subs_yy_pub.cpp)
+ament_target_dependencies(node_xx_subs_yy_pub ${dependencies})
+
+
 install(TARGETS
   publisher
   publisher_class
@@ -43,6 +48,7 @@ install(TARGETS
   logger_class
   param_reader
   subscriber_manipulator
+  node_xx_subs_yy_pub
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}
